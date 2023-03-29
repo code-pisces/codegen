@@ -1,0 +1,86 @@
+{
+  "pagination": {
+    "page": 1,
+    "firstPage": 1,
+    "lastPage": 1,
+    "perPage": 10,
+    "total": 10
+  },
+  "data": [
+    {
+      "attributes": [
+        {
+          "id": "aaa0612f-ef01-4c07-836b-92fa2b0d3ee7",
+          "attribute": { "name": "name", "type": "string" }
+        }
+      ],
+      "id": "b7fd3672-8acc-4fe5-9d32-9eccbb764e03",
+      "name": "Text schemas",
+      "description": null,
+      "status": null
+    },
+    {
+      "attributes": [],
+      "id": "b7dd430f-6ff3-46e4-9c98-711e8d212ab7",
+      "name": "Text methodologies",
+      "description": null,
+      "status": null
+    },
+    {
+      "attributes": [],
+      "id": "a17b610f-04d7-4700-a4e9-67670fe3a6d7",
+      "name": "Text technologies",
+      "description": null,
+      "status": null
+    },
+    {
+      "attributes": [],
+      "id": "991da0b5-cc44-48bb-ba86-17144f15d366",
+      "name": "Text networks",
+      "description": null,
+      "status": null
+    },
+    {
+      "attributes": [],
+      "id": "6254defd-d225-4a88-a7f2-dbf964d3f3b8",
+      "name": "Text functionalities",
+      "description": null,
+      "status": null
+    },
+    {
+      "attributes": [],
+      "id": "ad8b035b-addf-4d00-ac17-f96677197e69",
+      "name": "Text vortals",
+      "description": null,
+      "status": null
+    },
+    {
+      "attributes": [],
+      "id": "f38321f4-3542-40a4-83c9-87cb0bd6654b",
+      "name": "Text web services",
+      "description": null,
+      "status": null
+    },
+    {
+      "attributes": [],
+      "id": "63712a8c-9e69-414e-9e59-ed20f6699e19",
+      "name": "Text web services",
+      "description": null,
+      "status": null
+    },
+    {
+      "attributes": [],
+      "id": "45687107-91d7-42c4-8a36-428d4eab9f3a",
+      "name": "Text e-markets",
+      "description": null,
+      "status": null
+    },
+    {
+      "attributes": [],
+      "id": "19c1dd4a-ff38-4013-bd2e-9f50898c5453",
+      "name": "Text synergies",
+      "description": null,
+      "status": null
+    }
+  ]
+}

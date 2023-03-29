@@ -30,4 +30,17 @@ export default css`
   #nprogress .bar {
     height: 5px;
   }
+
+  select {
+    option {
+      background-color: hsl(150, 6.7%, 13.1%) !important;
+      color: hsl(0, 0%, 100%) !important;
+    }
+  }
+
+  *,
+  *::before,
+  *::after {
+    border-color: hsl(150, 5.8%, 19.9%) !important;
+  }
 `;

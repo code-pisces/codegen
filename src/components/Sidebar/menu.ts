@@ -1,5 +1,5 @@
 import { As } from "@chakra-ui/react";
-import { MdBuild, MdVerifiedUser } from "react-icons/md";
+import { MdBuild, MdVerifiedUser, MdViewModule } from "react-icons/md";
 
 type MenuItem = {
   icon?: As<any> | undefined;
@@ -10,9 +10,14 @@ type MenuItem = {
 
 export const menu: MenuItem[] = [
   {
+    icon: MdViewModule,
+    text: "Modules",
+    href: "/",
+  },
+  {
     icon: MdBuild,
     text: "Crud",
-    href: "/",
+    href: "/crud",
   },
   {
     icon: MdVerifiedUser,

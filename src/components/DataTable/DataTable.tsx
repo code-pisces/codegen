@@ -82,8 +82,8 @@ function DataTable({
         display="flex"
         alignItems="center"
         justifyContent={"space-between"}
-        background="gray.200"
-        color="gray.600"
+        background="sageDark.700"
+        color="sageDark.600"
         fontSize="sm"
       >
         <HStack width="100%">
@@ -117,8 +117,8 @@ function DataTable({
       </Box>
       <Box width="100%" overflow="auto">
         <PerfectScrollbar>
-          <Table {...getTableProps()}>
-            <Thead backgroundColor="#fff">
+          <Table {...getTableProps()} colorScheme="sageDark">
+            <Thead backgroundColor="sageDark.700">
               {headerGroups.map((headerGroup) => {
                 const { key, ...restHeaderGroupProps } =
                   headerGroup.getHeaderGroupProps();
@@ -138,23 +138,23 @@ function DataTable({
             </Thead>
             {isLoading ? (
               <Tbody>
-                <Tr>
+                <Tr borderColor="sageDark.200">
                   <Td padding={0} colSpan={columns.length}>
                     <Box
                       display="flex"
                       alignItems="center"
                       justifyContent="center"
-                      backgroundColor="#fff"
+                      backgroundColor="sageDark.700"
                       height="364px"
                       width="100%"
                     >
-                      <CircularProgress isIndeterminate color="brand.600" />
+                      <CircularProgress isIndeterminate color="tealDark.600" />
                     </Box>
                   </Td>
                 </Tr>
               </Tbody>
             ) : (
-              <Tbody backgroundColor="#fff" {...getTableBodyProps}>
+              <Tbody backgroundColor="sageDark.700" {...getTableBodyProps}>
                 {rows.map((row) => {
                   prepareRow(row);
                   const { key, ...restRowProps } = row.getRowProps();
@@ -183,7 +183,7 @@ function DataTable({
         display="flex"
         alignItems="center"
         justifyContent={"space-between"}
-        background="gray.200"
+        background="sageDark.700"
         color="gray.600"
         fontSize="sm"
       >

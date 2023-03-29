@@ -132,6 +132,27 @@ export const override = {
         colorScheme: "teal",
       },
     },
+    Modal: {
+      baseStyle: {
+        dialog: {
+          backgroundColor: "sageDark.sage3",
+          fontFamily: "Inter, sans-serif",
+        },
+
+        header: {
+          borderBottom: "2px solid",
+          borderColor: "sageDark.sage7",
+          color: "sageDark.sage12",
+          fontWeight: "medium",
+          letterSpacing: "0.056em",
+        },
+
+        footer: {
+          borderTop: "2px solid",
+          borderColor: "sageDark.sage7",
+        },
+      },
+    },
   },
   styles: {
     global: () => ({
